@@ -1,14 +1,26 @@
 {
-  "name": "package.json",
+  "name": "Node_js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "gayani",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gayanimadahapola/Web-API-Heroes.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/gayanimadahapola/Web-API-Heroes/issues"
+  },
+  "homepage": "https://github.com/gayanimadahapola/Web-API-Heroes#readme"
 }
